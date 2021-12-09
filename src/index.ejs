@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>My Awesome App</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <% for (var css in htmlWebpackPlugin.files.css) { %><link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet"><% } %>
+    <% for (var chunk in htmlWebpackPlugin.files.js) { %><script src="<%= htmlWebpackPlugin.files.js[chunk] %>"></script><% } %>
+  </body>
+</html>

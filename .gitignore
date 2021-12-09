@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# transpiled modules
+lib
+
+# Coverage directory used by tools like istanbul
+coverage
+coverage.json
+
+
+# misc
+.DS_Store
+.env*
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# next.js
+.next
+
+# builds
+dist
+public
+
+.vscode/
+
+# Local Netlify folder
+.netlify

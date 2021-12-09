@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "module": "ES2015", // need this to work with fast refresh
+    "downlevelIteration": true // this makes Set work correctly with es2015
+  }
+}

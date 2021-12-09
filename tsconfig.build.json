@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["es6", "dom"],
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "useUnknownInCatchVariables": false,
+    "outDir": "./lib",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components/index.ts"]
+    }
+  },
+  "include": ["src/**/*", "mdx.d.ts"]
+}
